@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "X001",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X002",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X003",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X004",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": true
+  },
+  {
+    "case_id": "X005",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "No private information here",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X006",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Email: user.name+test@sample.org",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X007",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Call 1234567890 for support",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X008",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Token sk-12345678",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X009",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Version 2.5 is available",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X010",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Contact admin@example.net",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X011",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Phone number: 9123456780",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X012",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Secret: sk-ZyxWvuTs9876",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X013",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X014",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X015",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X016",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": true
+  },
+  {
+    "case_id": "X017",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "No private information here",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X018",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Email: user.name+test@sample.org",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X019",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Call 1234567890 for support",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X020",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Token sk-12345678",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X021",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Version 2.5 is available",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X022",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Contact admin@example.net",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X023",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Phone number: 9123456780",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X024",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Secret: sk-ZyxWvuTs9876",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X025",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X026",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X027",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X028",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": true
+  },
+  {
+    "case_id": "X029",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "No private information here",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X030",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Email: user.name+test@sample.org",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X031",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Call 1234567890 for support",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X032",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Token sk-12345678",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X033",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Version 2.5 is available",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X034",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Contact admin@example.net",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X035",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Phone number: 9123456780",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X036",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Secret: sk-ZyxWvuTs9876",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X037",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X038",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X039",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X040",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": true
+  },
+  {
+    "case_id": "X041",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "No private information here",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X042",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Email: user.name+test@sample.org",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X043",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Call 1234567890 for support",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X044",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Token sk-12345678",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X045",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Version 2.5 is available",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X046",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Contact admin@example.net",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X047",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Phone number: 9123456780",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X048",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Secret: sk-ZyxWvuTs9876",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X049",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X050",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X051",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X052",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": true
+  },
+  {
+    "case_id": "X053",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "No private information here",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X054",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Email: user.name+test@sample.org",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X055",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Call 1234567890 for support",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X056",
+    "channel": "browser",
+    "visibility": "internal",
+    "text": "Token sk-12345678",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X057",
+    "channel": "tool_output",
+    "visibility": "visible",
+    "text": "Version 2.5 is available",
+    "data_type": "NONE",
+    "expected_channel": "browser",
+    "authorized": false
+  },
+  {
+    "case_id": "X058",
+    "channel": "console",
+    "visibility": "internal",
+    "text": "Contact admin@example.net",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "X059",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Phone number: 9123456780",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "X060",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Secret: sk-ZyxWvuTs9876",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  }
+]

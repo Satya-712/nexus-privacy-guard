@@ -1,0 +1,51 @@
+
+[
+  {
+    "session_id": "S001",
+    "channel": "tool_return",
+    "visibility": "internal",
+    "text": "Student contact: student@example.com"
+  },
+  {
+    "session_id": "S001",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Contact: student@example.com"
+  },
+  {
+    "session_id": "S002",
+    "channel": "tool_return",
+    "visibility": "internal",
+    "text": "Phone: 9876543210"
+  },
+  {
+    "session_id": "S002",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Phone: 9876543210"
+  },
+  {
+    "session_id": "S003",
+    "channel": "tool_return",
+    "visibility": "internal",
+    "text": "Key: sk-AbCdEfGh1234"
+  },
+  {
+    "session_id": "S003",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Welcome to the project"
+  },
+  {
+    "session_id": "S004",
+    "channel": "tool_return",
+    "visibility": "internal",
+    "text": "Contact: other@example.com"
+  },
+  {
+    "session_id": "S004",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Contact: student@example.com"
+  }
+]

@@ -1,0 +1,84 @@
+OpenPII error analysis
+======================
+Dataset examples loaded: 200
+Evaluation rows: 200
+Unmatched predictions (false positives): 79
+Unmatched supported annotations (false negatives): 42
+
+False positives by predicted type:
+  EMAIL: 1
+  PHONE: 78
+
+False negatives by expected type:
+  EMAIL: 21
+  PHONE: 21
+
+First 15 false positives (value and surrounding context):
+- UID 20901978 [PHONE 451:461] value='5435165744'
+  context=atistics. For any dietary restrictions, email N@outlook.com with your 5435165744 so we can accommodate everyone.
+- UID 20901980 [PHONE 321:332] value='04829 95702'
+  context=r draft to ilkacamp@hotmail.com and we can arrange a feedback call at 04829 95702 .
+- UID 20901981 [PHONE 255:265] value='9271549102'
+  context=amdia@yahoo.com\nIdentification: RY8Q1QQ1ZG / JZ1476794\nTax Reference: 9271549102\n\nPlease describe your ballad's structure in 2–4 lines, focusing on rh
+- UID 20901983 [PHONE 467:477] value='0988513161'
+  context= composition with the national copyright office using the applicant's 0988513161 to ensure proper attribution.
+- UID 20901988 [PHONE 135:145] value='512 274248'
+  context=8UL)\nBuyer: Mayoress Somsong Berzia\nShipping Address: Township Road 512 274248, Aylmer, L9W\nContact Information: Phone – +07.62-759.2776; Email – 1
+- UID 20901988 [PHONE 658:668] value='7599297658'
+  context=9130182591247) or bank transfer.\nFor compliance, please provide your 7599297658 and verify the purchaser’s age as 74 years old.\nThank you for your b
+- UID 20901997 [PHONE 371:381] value='7960166357'
+  context=terns, while supply chain stress is tracked under registration number 7960166357.
+- UID 20901999 [PHONE 369:382] value='4734640395319'
+  context=y meal plan prepared by the family. Your monthly contribution will be 4734640395319 (masked) and will cover utilities, internet, and transportation to th
+- UID 20902000 [PHONE 446:456] value='8907025093'
+  context= gluten‑free, vegan). I will need a signed copy of each participant’s 8907025093 and a recent FQ2517678 for emergency contacts. Also, could the younge
+- UID 20902005 [PHONE 167:177] value='8518467744'
+  context=\nTo secure your spot, please submit a copy of your HT1521703 and your 8518467744 via email.\nThe workshop fee of $6493852527168973 will be charged to y
+- UID 20902011 [PHONE 473:487] value='50183428525110'
+  context=lease provide your H1N4KZTLYI and preferred payment method using your 50183428525110.
+- UID 20902018 [PHONE 60:70] value='4312539677'
+  context=All volunteers must present a valid R1XN75B3V2 and proof of 4312539677 before the first outdoor activity. The program also offers a scholars
+- UID 20902022 [PHONE 188:201] value='56)-8418 2846'
+  context=k. To request additional copies, send an email to LF@aol.com or call (56)-8418 2846 before 26/10/2019.
+- UID 20902030 [PHONE 147:162] value='343412639110501'
+  context=ication number 72818.20217 and the last four digits of the card used: 343412639110501; the total amount due is reflected in the document.
+- UID 20902035 [PHONE 94:105] value='03293 42275'
+  context=r the cold nights?\nA: Warm clothing, thermal boots, and your personal 03293 42275  for emergency contacts. Also, ensure your 0342893022 details are upd
+
+First 15 false negatives (expected value and surrounding context):
+- UID 20901969 [PHONE 512:524] value='01737.306706' annotation='01737.306706'
+  context=., esrik@outlook.com)\n8. Phone: _____________________________  (e.g., 01737.306706)\n9. Address: ___________________________  (Street: 9ème Rang  No.: 18
+- UID 20901971 [EMAIL 642:664] value='neddymuñez@hotmail.com' annotation='neddymuñez@hotmail.com'
+  context=the credit card ending in 3573039696158734; a receipt will be sent to neddymuñez@hotmail.com once the transaction is completed, and any applicable taxes will be c
+- UID 20901980 [PHONE 321:333] value='04829 95702 ' annotation='04829 95702 '
+  context=r draft to ilkacamp@hotmail.com and we can arrange a feedback call at 04829 95702 .
+- UID 20902015 [PHONE 198:211] value='0392.76019104' annotation='0392.76019104'
+  context=e share your feedback by replying to this message or contacting us at 0392.76019104. If you wish to join future retreats, let us know your preferred date
+- UID 20902019 [EMAIL 205:225] value='shpmassoni@gmail.com' annotation='shpmassoni@gmail.com'
+  context=ing their 4G4UUWITY0 and will receive a personalized schedule sent to shpmassoni@gmail.com.
+- UID 20902022 [PHONE 187:201] value='(56)-8418 2846' annotation='(56)-8418 2846'
+  context=rk. To request additional copies, send an email to LF@aol.com or call (56)-8418 2846 before 26/10/2019.
+- UID 20902023 [EMAIL 266:280] value='SRGG@gmail.com' annotation='SRGG@gmail.com'
+  context=leted document to the office at Airport Road 221, Greenfield and copy SRGG@gmail.com.
+- UID 20902029 [PHONE 278:294] value='0072.53-309-2911' annotation='0072.53-309-2911'
+  context= located at 91 Range Road 2072, zip code T8N, and you can reach us at 0072.53-309-2911 or ETKP@protonmail.com for any assistance.
+- UID 20902035 [PHONE 94:106] value='03293 42275 ' annotation='03293 42275 '
+  context=r the cold nights?\nA: Warm clothing, thermal boots, and your personal 03293 42275  for emergency contacts. Also, ensure your 0342893022 details are upda
+- UID 20902038 [PHONE 300:312] value='04249 17501 ' annotation='04249 17501 '
+  context= • Gender Identity: Genderqueer\n   • Email: E@gmail.com\n   • Phone: 04249 17501 \n\n2. Military Service Details\n   • Branch: ______________________\n
+- UID 20902043 [EMAIL 450:479] value='ajdenvan cauwenbe@hotmail.com' annotation='ajdenvan cauwenbe@hotmail.com'
+  context=rward to celebrating together; for any inquiries, contact our team at ajdenvan cauwenbe@hotmail.com or +22 55.265 4951.
+- UID 20902045 [PHONE 209:221] value='07118.438986' annotation='07118.438986'
+  context=nder: Non-binary).\nContact Information: Email – 20MS@aol.com; Phone – 07118.438986; Residential Address – Rue Gagné 233, Port Renfrew, B0H.\nIdentificati
+- UID 20902053 [EMAIL 4:24] value='franchboér@yahoo.com' annotation='franchboér@yahoo.com'
+  context=To: franchboér@yahoo.com\nFrom: HM@gmail.com\nDate: 6th January 1978\nSubject: Feedback Reques
+- UID 20902055 [PHONE 576:588] value='003 9065507 ' annotation='003 9065507 '
+  context=e email sent from 2017H@yahoo.com or by calling our finance office at 003 9065507 . If you have any questions regarding this invoice or require a copy o
+- UID 20902073 [PHONE 119:133] value='(57).2568 1194' annotation='(57).2568 1194'
+  context=ast 48 hours in advance via email (mschmieg@protonmail.com) or phone ((57).2568 1194). We look forward to welcoming you and your companion to a healing ex
+
+Caution: these are synthetic OpenPII examples and exact-span evaluation diagnostics,
+not estimates of real-world detector performance.
+
+Full false-positive CSV: C:\Users\nanim\ai-agent-privacy-guard\reports\openpii_false_positives.csv
+Full false-negative CSV: C:\Users\nanim\ai-agent-privacy-guard\reports\openpii_false_negatives.csv

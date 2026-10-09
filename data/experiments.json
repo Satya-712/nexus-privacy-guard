@@ -1,0 +1,48 @@
+
+[
+  {
+    "case_id": "E001",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": true
+  },
+  {
+    "case_id": "E002",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Contact student@example.com",
+    "data_type": "EMAIL",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "E003",
+    "channel": "console",
+    "visibility": "visible",
+    "text": "Phone: 9876543210",
+    "data_type": "PHONE",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "E004",
+    "channel": "tool_output",
+    "visibility": "internal",
+    "text": "Key: sk-AbCdEfGh1234",
+    "data_type": "API_KEY",
+    "expected_channel": "console",
+    "authorized": false
+  },
+  {
+    "case_id": "E005",
+    "channel": "browser",
+    "visibility": "visible",
+    "text": "Welcome to our AI project",
+    "data_type": "NONE",
+    "expected_channel": "console",
+    "authorized": true
+  }
+]

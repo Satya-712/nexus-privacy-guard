@@ -1,0 +1,14 @@
+﻿metric,value
+total_cases,60
+true_positives,45
+true_negatives,15
+false_positives,0
+false_negatives,0
+accuracy,1.0
+precision,1.0
+recall,1.0
+f1_score,1.0
+api_key_accuracy,1.0
+email_accuracy,1.0
+none_accuracy,1.0
+phone_accuracy,1.0

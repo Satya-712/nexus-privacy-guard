@@ -1,0 +1,4 @@
+﻿category,true_positive,false_positive,false_negative,precision,recall,f1_score,matching_rule,dataset
+EMAIL,130,1,21,0.992366,0.860927,0.921986,exact entity type and exact character span,OpenPII synthetic sample (English)
+PHONE,88,78,21,0.53012,0.807339,0.64,exact entity type and exact character span,OpenPII synthetic sample (English)
+MICRO_AVERAGE_SUPPORTED_LABELS,218,79,42,0.734007,0.838462,0.782765,exact entity type and exact character span,OpenPII synthetic sample (English)
